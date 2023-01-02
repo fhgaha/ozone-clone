@@ -7,7 +7,7 @@ const CustomLink = ({ to, children, ...props }) => {
 	const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
 	return (
-		<li className={isActive ? cl.neum_button_pressed : cl.neum_button_not_pressed}>
+		<li className={isActive ? cl.pressed : cl.unpressed}>
 			<Link to={to} {...props}>{children}</Link>
 		</li>
 	)

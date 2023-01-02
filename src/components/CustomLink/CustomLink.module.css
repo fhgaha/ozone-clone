@@ -2,14 +2,14 @@
 	background-color: #555;
 }
 
-.neum_button_not_pressed {
+.unpressed {
 	border-radius: 50px;
 	background: #e8e8f3;
 	box-shadow: 5px 5px 10px #ccccd6,
 		-5px -5px 10px #ffffff;
 }
 
-.neum_button_pressed {
+.pressed {
 	border-radius: 50px;
 	background: #e8e8f3;
 	box-shadow: inset 5px 5px 10px #ccccd6,
