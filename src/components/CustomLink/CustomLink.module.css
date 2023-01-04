@@ -5,6 +5,7 @@
 .unpressed {
 	border-radius: 50px;
 	background: #e8e8f3;
+	/* background: linear-gradient(145deg, #f8f8ff, #d1d1db); */
 	box-shadow: 5px 5px 10px #ccccd6,
 		-5px -5px 10px #ffffff;
 }
