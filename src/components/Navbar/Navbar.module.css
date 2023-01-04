@@ -5,8 +5,9 @@
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
-  padding: 1rem 1rem;
-  box-shadow: 0px 6px 7px 0px #ccccd6;
+  padding: 1rem 2rem;
+  box-shadow: 0px 2px 7px 0px #ccccd6;
+  position: sticky;
 }
 
 .nav ul {
@@ -14,15 +15,15 @@
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav li {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
 }
 
 .nav a {
@@ -31,6 +32,7 @@
   display: flex;
   align-items: center;
   padding: .25rem;
+  font-size: 2rem;
 }
 
 /* .nav li:hover {

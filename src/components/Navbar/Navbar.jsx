@@ -8,8 +8,9 @@ const Navbar = () => {
 	return (
 		<div className={cl.nav}>
 			<Link to='/' className={cl.site_title}>
-				<CiHospital1 />
+				<b>Logo</b>
 			</Link>
+			
 			<ul>
 				<CustomLink to='/pricing'>
 					<CiMoneyBill />

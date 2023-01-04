@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import cl from "./Page.module.css";
 
 const Pricing = () => {
   return (
-	<div>
+	<div className={cl.page}>
 		<h1>Pricing page</h1>
 	</div>
   )
