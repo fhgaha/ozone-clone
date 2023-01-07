@@ -1,11 +1,13 @@
 .card_item {
 	width: 200px;
 	padding: 1rem;
-	margin: 2rem;
+	margin: 1rem;
 	border-radius: 14px;
 	background: #e8e8f3;
 	box-shadow: 14px 14px 26px #c3c3cc,
 		-14px -14px 26px #ffffff;
+	display: flex;
+	flex-direction: column;
 }
 
 .card_item img {
