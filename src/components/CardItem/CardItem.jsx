@@ -5,8 +5,8 @@ const CardItem = ({data}) => {
 	return (
 		<div className={cl.card_item}>
 			<img src={data.image}></img>
+			<div>{data.price}</div>
 			<b>{data.title}</b>
-			<p>{data.description}</p>
 		</div>
 	)
 }
